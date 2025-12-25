@@ -64,7 +64,7 @@ while True:
         else:
             count = 0
 
-    cv2.imshow("Drowsiness Detection", frame)
+    cv2.imshow("sleep  Detection", frame)
 
     key = cv2.waitKey(1) & 0xFF
     if key == 27:  # ESC key
